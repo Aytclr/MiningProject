@@ -5,9 +5,11 @@
 }
 
 body {
-  width: 100vh;
+  border: 2px solid black;
+  width: 100vw;
   height: 100vh;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -16,17 +18,18 @@ body {
 .container-data {
   width: 70%;
 
-  padding: 2rem;
   display: flex;
-  gap: 2rem;
-  text-align: center;
   justify-content: center;
+  text-align: center;
+  gap: 2rem;
+  padding: 2rem;
 }
 .container-input{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     gap: 1rem;
+    padding: 2rem;
 }
 
 .container-input input {
@@ -49,4 +52,10 @@ input,
 {
     border: 2px solid black;
     border-radius: 10px;
+}
+
+.hesapla{
+  width: 17rem ;
+  height: 3rem;
+  border-radius: 2rem;
 }
